@@ -1,7 +1,6 @@
-
 import React from 'react';
 import { motion } from 'framer-motion';
-import { GitHub, Linkedin, Mail, Heart } from 'lucide-react';
+import { Github, Linkedin, Mail, Heart } from 'lucide-react';
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -61,7 +60,7 @@ const Footer: React.FC = () => {
                     rel="noopener noreferrer" 
                     className="text-gray-600 text-sm hover-link flex items-center interactive"
                   >
-                    <GitHub size={14} className="mr-2" />
+                    <Github size={14} className="mr-2" />
                     GitHub
                   </a>
                 </li>

@@ -1,7 +1,6 @@
-
 import React, { useEffect, useRef, useState } from 'react';
 import { motion, useInView, useAnimation } from 'framer-motion';
-import { Mail, Send, GitHub, Linkedin, MapPin } from 'lucide-react';
+import { Mail, Send, Github, Linkedin, MapPin } from 'lucide-react';
 import { toast } from '@/components/ui/use-toast';
 
 const ContactSection: React.FC = () => {
@@ -120,7 +119,7 @@ const ContactSection: React.FC = () => {
                       className="bg-gray-100 p-3 rounded-full text-gray-700 hover:bg-primary hover:text-white transition-colors interactive"
                       aria-label="GitHub Profile"
                     >
-                      <GitHub size={18} />
+                      <Github size={18} />
                     </a>
                     <a 
                       href="https://linkedin.com" 

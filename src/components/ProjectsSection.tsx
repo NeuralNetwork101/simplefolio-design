@@ -1,7 +1,6 @@
-
 import React, { useEffect, useRef } from 'react';
 import { motion, useInView, useAnimation } from 'framer-motion';
-import { GitHub, ExternalLink } from 'lucide-react';
+import { Github, ExternalLink } from 'lucide-react';
 
 interface Project {
   id: string;
@@ -130,7 +129,7 @@ const ProjectsSection: React.FC = () => {
                     className="flex items-center text-gray-700 hover:text-primary transition-colors interactive"
                     aria-label="View GitHub repository"
                   >
-                    <GitHub size={16} className="mr-1" />
+                    <Github size={16} className="mr-1" />
                     <span className="text-sm">Code</span>
                   </a>
                   <a 
