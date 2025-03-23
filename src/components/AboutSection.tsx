@@ -66,9 +66,9 @@ const AboutSection: React.FC = () => {
               </div>
               <div className="absolute -bottom-6 -right-6 bg-white p-4 rounded-lg shadow-lg max-w-xs">
                 <p className="font-mono text-sm">
-                  <span className="text-primary">function</span> developCode() {<br/>
+                  <span className="text-primary">function</span> developCode() {'{'}<br/>
                   &nbsp;&nbsp;return <span className="text-green-600">'elegant solutions'</span>;<br/>
-                  }
+                  {'}'}
                 </p>
               </div>
             </div>
